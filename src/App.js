@@ -16,7 +16,7 @@ function App() {
   }
   return (
     <div className="App">
-      <h1>To Do List App</h1>
+      <h1>To-Do List</h1>
       <InputArea change={changeHandler} click={clickHandler} data={input} />
 
       <div className="items">
