@@ -1,10 +1,42 @@
 .App {
   font-family: sans-serif;
   text-align: center;
+  background-color: #fff;
+  height: 500px;
+  width: 300px;
+  margin: auto;
+  border-radius: 16px;
+  box-shadow: 3px 3px 8px;
 }
 
 .items {
   text-align: left;
-  box-shadow: 3px 3px 3px grey;
-  width: 50%;
+  width: 100%;
+  position: relative;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-family: "Odibee Sans", cursive;
+  font-size: 30px;
+}
+
+body {
+  background-color: rgb(230, 162, 61);
+  color: rgb(51, 49, 49);
+}
+input {
+  height: 20px;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(228, 218, 218);
+}
+button {
+  border: none;
+  width: 20px;
+  border-radius: 10%;
+  font-size: 20px;
+  cursor: pointer;
+}
+h1 {
+  font-family: "Odibee Sans", cursive;
+  margin-top: 70px;
 }
